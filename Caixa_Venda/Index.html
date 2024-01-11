@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Caixa_Venda</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <div class="card">
+        <h1>CAIXA DE VENDAS</h1>
+        <hr />
+        <div class="card-body">
+            <div class="container-1">
+                <label>Produto</label>
+                <br />
+                <input id="nome_produto" />
+            </div>
+            <div class="container-2">
+                <label>Valor</label>
+                <br />
+                <input id="valor_produto" type="number" />
+            </div>
+            <div class="container-3">
+                <label>Quantidade</label>
+                <br />
+                <input id="quantidade_produto" type="number" />
+            </div>
+            <div class="container-4">
+                <label>Valor Pago</label>
+                <br />
+                <input id="valor_pago" type="number" />
+            </div>
+            <button onclick="enviar_vendas()">Registrar venda</button>
+        </div>
+        <table>
+            <thead>
+                <tr>
+                    <th>N°</th>
+                    <th>Produto</th>
+                    <th>Quantidade</th>
+                    <th>Valor Produto R$</th>
+                    <th>Total R$</th>
+                    <th>Valor Pago R$</th>
+                    <th>Desconto R$</th>
+                </tr>
+            </thead>
+            <tbody id="Vendas">
+                <tr>
+
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>

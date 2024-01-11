@@ -1,0 +1,86 @@
+body {
+    background: darkgrey;
+    /* text-align: center; */
+}
+
+.card {
+    margin-bottom: 2rem;
+    border-color: black;
+    border: 2px solid;
+    background: cadetblue;
+    height: 450px;
+    align-content: center;
+    text-align: justify;
+}
+
+.card-body {
+    margin: 5px 5px 5px 5px;
+    border-color: cyan;
+    border: 2px solid;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+input {
+    /* text-align: left; */
+    background: moccasin;
+    color: black;
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 1rem;
+    margin-left: 6px;
+}
+
+hr {
+    margin-top: 1rem;
+    background: black;
+    /* Aqui está adicionando a cor preta */
+}
+
+th {
+    border: 1px solid;
+    margin: 0;
+    background: lavender;
+}
+
+td {
+    border: 1px solid;
+    margin: 0;
+    background: lightgreen;
+}
+
+table {
+    margin: 5px;
+    border: 1px solid;
+    background: azure;
+    font-size: large;
+    align-items: center;   
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+h1 {
+    text-align: center;
+    text-shadow: 1px solid;
+    color: white;
+    display: inline-block;
+    border: 1px 0 solid black;
+    margin-left: 40px;
+}
+
+label {
+    color: white;
+    margin-left: 9px;
+    /* margin-right: 174px; */
+}
+
+button {
+    background: green;
+    color: white;
+    font-size: larger;
+    border-radius: 1rem;
+}
